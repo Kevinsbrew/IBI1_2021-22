@@ -1,6 +1,6 @@
 # What does this piece of code do?
 # Answer:
-#select 10 random number from 1 to 100
+#select 10 random number from 1 to 100，and only pick the last selected number to print
 # Import libraries
 # randint allows drawing a random number,
 # e.g. randint(1,5) draws a number between 1 and 5
@@ -14,5 +14,6 @@ progress=0
 while progress<10:
 	progress+=1
 	n = randint(1,100)
-	print(n) # I chage the indent to make the print be included in the loop
+	
+print(n) 
 
