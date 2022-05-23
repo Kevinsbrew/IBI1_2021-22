@@ -15,5 +15,5 @@ else :
 # show the boxplot
 import matplotlib.pyplot as plt
 plt.title('boxplot for mark')
-plt.boxplot(M)
+plt.boxplot(M,showfliers=True,whis=1,widths=0.5,patch_artist=True)
 plt.show()
