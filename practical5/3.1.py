@@ -35,3 +35,11 @@ if rate2021>rate2020:
     print("rate of 2021 is greater")
 else :
     print("the rate is equal")
+    
+X = True
+Y = False
+W = X and Y
+print(W)
+# W=False
+
+
