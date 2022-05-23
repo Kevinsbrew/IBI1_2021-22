@@ -1,0 +1,4 @@
+– How have new cases and total cases developed over time in Spain?
+-line 58
+From February 2020, new cases kept rising and reached a peak at the end of March 2020, then it slightly decreased.
+The total cases kept rising from February 2020.
