@@ -14,7 +14,7 @@ print(covid_data.iloc[0,1])# check row 0,column 1
 print(covid_data.iloc[2,0:5])#chek row 2,column 0 to 5
 print(covid_data.iloc[0:2,:])#check row 0 to 2, all the column
 print(covid_data.iloc[0:10:2,0:5])#check row 0,2,4,6,8,column 0 to 5
-
+print(covid_data.iloc[10:20, [0, 2]])#showing the first and third columns from rows 10-20
 my_columns = [True, True, False, True, False, False]
 # creat a list of Booleans that dicided whether to read the data frame
 print(covid_data.iloc[0:3,my_columns])
