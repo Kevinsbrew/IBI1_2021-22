@@ -5,6 +5,6 @@ The points I lost in the feedback were: 1, not creating a public Github profile 
 
 I re-created the public Github personal page and did some tasks such as page design according to practical guidance
 I adjusted the Inflection. TXT, so that it exists in the correct folder
-When X=False, Y= True, W= X and Y, output W, W=False
-For week6's boxplot, I added some directives, plt.title('boxplot for mark')
-Plt.boxplot (M,showfliers=True, WHis =1, Widths =0.5, Patch_artist =True) makes his Lables more complete
+I Create two	variables	X	and	Y, a	variable W	that encodes	the	Boolean	variable	that	encodes	“X	and	Y”.	When X=False, Y= True, W= X and Y, output W, W=False,that is correct
+For week6's boxplot, I added some directives, plt.title('....'),plt.xlable('...'),plt.ylable('...')
+Plt.boxplot (M,showfliers=True, Patch_artist =True)... makes his Lables more complete
