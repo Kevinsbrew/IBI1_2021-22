@@ -22,14 +22,14 @@ def dna_cal(DNA_strand): #set a function,parament : DNA_strand
     frequent_t = count_t_or_T / len(DNA_strand)
     frequent_c = count_c_or_C / len(DNA_strand)
     frequent_g= count_g_or_G / len(DNA_strand)
-    print('frequent of A is',frequent_a,'\n','frequent of T is',frequent_t,'\n','frequent of C is',frequent_c,'\n','frequent of G is',frequent_g)
-    return DNA_strand #return the dna strand that used
+
+    return print('frequent of A is',frequent_a,'\n','frequent of T is',frequent_t,'\n','frequent of C is',frequent_c,'\n','frequent of G is',frequent_g)
 
 seq='accGTaAc'#example1
-print(dna_cal(seq))
+dna_cal(seq)
 
 
 DNA_strand=input("please enter a dna strand:")#example2 ^o^
-print(dna_cal(DNA_strand))
+dna_cal(DNA_strand)
 
 
