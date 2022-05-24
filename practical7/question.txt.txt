@@ -1,4 +1,7 @@
 – How have new cases and total cases developed over time in Spain?
--line 58
+-start from line 59
+In the plot, the blue line shows new cases and the red line shows total cases.
 From February 2020, new cases kept rising and reached a peak at the end of March 2020, then it slightly decreased.
 The total cases kept rising from February 2020.
+
+This indicates that the spread of COVID-19 accelerated in Spain from February 2020, and did not slow down until the end of March 2020. The results may indicate that the Spanish government tightened regulations around March, leading to a slowdown in the outbreak. But the rising number of COVID-19 cases could put a strain on the health care system
