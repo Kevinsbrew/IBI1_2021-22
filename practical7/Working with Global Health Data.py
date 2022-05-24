@@ -14,13 +14,11 @@ print(covid_data.iloc[0,1])# check row 0,column 1
 print(covid_data.iloc[2,0:5])#chek row 2,column 0 to 5
 print(covid_data.iloc[0:2,:])#check row 0 to 2, all the column
 print(covid_data.iloc[0:10:2,0:5])#check row 0,2,4,6,8,column 0 to 5
-print(covid_data.iloc[10:20, [0, 2]])#showing the first and third columns from rows 10-20
+
 my_columns = [True, True, False, True, False, False]
 # creat a list of Booleans that dicided whether to read the data frame
 print(covid_data.iloc[0:3,my_columns])
 print(covid_data.loc[2:4,"date"])
-
-
 Afghanistandata=[]
 for s in range(0,7996): #seta a loop to add Booleans according to the location to the list  Afghanistandata
     if covid_data.iloc[s,1]=="Afghanistan":
@@ -45,8 +43,12 @@ plt.plot(China_date,China_new_cases, 'b+') #make a plot in the form of "b+”，
 plt.title('new cases per day')
 plt.xticks(China_date.iloc[0:len(China_date):4],rotation=-90) # rotate the data units of x axis,to make them not to overlap
 plt.show()
+plt.xlabel('number')
+plt.ylabel('new cases in china')
 plt.boxplot(China_new_cases,vert=False) #vert false lies down the boxplot
 plt.show()
+plt.xlabel('number')
+plt.ylabel('new death in china')
 plt.boxplot(China_new_death,vert=False)
 plt.show()
 plt.plot(China_date,China_new_cases,color ='blue')
@@ -54,8 +56,6 @@ plt.plot(China_date,China_new_death,color='red')
 plt.title('new cases and new death per day in China')
 plt.xticks(China_date.iloc[0:len(China_date):4],rotation=-90)
 plt.show()
-
-
 #question: How have new cases and total cases developed over time in Spain?
 Spaindata=[]
 for k in range(0,7996):
