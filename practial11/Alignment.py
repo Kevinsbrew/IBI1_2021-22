@@ -30,3 +30,4 @@ def aliment(seq1,seq2): #define a function to calculate the distance
 print('distance =',aliment(DLX5_HUMAN,DLX5_MOUSE),'rate =',1-aliment(DLX5_HUMAN,DLX5_MOUSE)/len(DLX5_HUMAN))
 print('distance =',aliment(DLX5_HUMAN,RandomSeq),'rate =',1-aliment(DLX5_HUMAN,RandomSeq)/len(DLX5_HUMAN))
 print('distance =',aliment(DLX5_MOUSE,RandomSeq),'rate =',1-aliment(DLX5_MOUSE,RandomSeq)/len(DLX5_HUMAN))
+print('summary :The above results showed that the alignment score of human sequence and mouse sequence was significantly higher than that of random sequence. At the same time, edit Distance of human and mouse sequences was relatively small, and the similarity ratio of amino acids was relatively high, indicating that human and mouse retained certain similarities in the evolutionary process and had biological kinship. Of course, the specific size of the kinship should be compared with the sequences of other organisms to calculate the alignment score.' )
